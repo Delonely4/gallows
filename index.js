@@ -37,10 +37,8 @@ function isGuess(letter) {
 }
 
 function printGallow() {
-  if (hp--) {
-    console.log("ОШИБКА");
-    console.log("");
-  }
+  console.log("ОШИБКА");
+  console.log("Осталось жизней: ", hp);
 }
 
 function isGame() {
